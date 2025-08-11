@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Toggle Example</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+               $("#box").slideToggle();
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <button id="btn">Toggle Box</button>
+    <div id="box" style="width:200px;height:100px;background:red;margin-top:10px;"></div>
+    
+</body>
+</html>
